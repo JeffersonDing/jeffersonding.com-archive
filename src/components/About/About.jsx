@@ -68,7 +68,7 @@ const About = () => {
       <Container className="mt-5">
         <Title title="My Interest's" />
         <div className="cards-wrapper">
-          <Row lg={4} sm={12} className="container">
+          <Row xs={1} md={3} className="container">
             <div className="card">
               <div className={isDesktop ? 'face face1' : 'mobile-face'}>
                 <div className="content">

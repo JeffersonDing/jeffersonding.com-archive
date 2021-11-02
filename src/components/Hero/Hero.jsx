@@ -23,14 +23,9 @@ const Header = () => {
   return (
     <section id="hero" className="jumbotron">
       <Container className={isMobile && 'mobile'}>
-        <a href="#" className="float">
-          <i className="fa fa-file icon" />
-          <p className="text">Visit Blog</p>
-        </a>
         <h1 className="hero-title">
           <div className={isDesktop ? 'typing' : ''}>
-            {title || 'Hi, my name is'}{' '}
-            <span className="text-color-main">{name || 'Your Name'}</span>
+            {title} <span className="text-color-main">{name}</span>
           </div>
           <br />
         </h1>
@@ -44,7 +39,7 @@ const Header = () => {
                 <h1 className="hero-title purple">...</h1>
               </Row>
             ) : (
-              "I'm Unknown"
+              ''
             )}
           </Col>
           <Col>
@@ -60,7 +55,7 @@ const Header = () => {
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
-                {cta || 'Know more'}
+                {cta}
               </Link>
             </span>
           </p>

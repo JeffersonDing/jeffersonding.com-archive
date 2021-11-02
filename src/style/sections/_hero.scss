@@ -75,7 +75,10 @@
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
-
+  .mobile {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
   .hero-title {
     font-size: 5.6rem;
     font-weight: 700;

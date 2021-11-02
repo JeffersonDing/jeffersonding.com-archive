@@ -59,6 +59,9 @@
         margin-left: 2rem;
         flex-direction: column;
         text-align: justify;
+        * {
+          word-break: break-all;
+        }
         h4 {
           color: $background-color;
           font-weight: 600;

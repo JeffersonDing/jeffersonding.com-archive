@@ -37,7 +37,7 @@ const Projects = () => {
             {projects.map((project) => {
               const { img, day, month, title, cat, sub, text, url } = project;
               return (
-                <Col className="col">
+                <Col>
                   <div className="post-module">
                     <div className="thumbnail">
                       <div className="date">

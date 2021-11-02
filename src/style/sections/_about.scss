@@ -20,8 +20,7 @@
       display: flex;
       justify-content: space-evenly;
       padding: 1rem;
-      flex-wrap: nowrap;
-
+      flex-wrap: wrap;
       .mobile-face .content h3 {
         font-size: 3rem;
         color: $white-color;
@@ -38,7 +37,6 @@
         margin: 0.3em;
         position: relative;
         cursor: pointer;
-
         .face {
           width: 100%;
           height: 200px;
